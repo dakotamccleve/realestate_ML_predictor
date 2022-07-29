@@ -33,4 +33,4 @@ def graphs():
 
 
 if __name__ == "__app__":
-    app.run()
+    app.run(port=33507)
