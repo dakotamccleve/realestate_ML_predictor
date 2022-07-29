@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="../static/style.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<div class="navbar">
+    <a class="active" href="{{ url_for('index') }}">Predictor</a>
+    <a href="{{ url_for('graphs') }}">Visualization</a>
+</div>
+<H1 class="page-header">Real Estate Price Predictor</H1>
+<div class="jumbotron">
+<p>Please fill out the following information to predict the price of your house:</p>
+<form action="#" method="post">
+    <label>Square Footage:</label>
+    <input type="text" id="sqft" name="sqft"><br/>
+    <input type="submit" value="Submit">
+</form>
+</div>
+</body>
+</html>

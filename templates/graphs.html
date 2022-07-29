@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="../static/style.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Visualization</title>
+</head>
+<body>
+<div class="navbar">
+    <a href="{{ url_for('index') }}">Predictor</a>
+    <a class="active" href="{{ url_for('graphs') }}">Visualization</a>
+</div>
+<H1 class="page-header">Data Visualization</H1>
+<div class="jumbotron">
+    <div class="flexbox">
+        <img src="../static/pricevssqft.png" width="700px">
+        <img src="../static/pricevsbeds.png" width="700px">
+        <img src="../static/pricevsbaths.png" width="700px">
+    </div>
+</div>
+</body>
+</html>

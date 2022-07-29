@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="../static/style.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Results</title>
+</head>
+<body>
+<div class="navbar">
+    <a href="{{ url_for('index') }}">Predictor</a>
+    <a href="{{ url_for('graphs') }}">Visualization</a>
+</div>
+<H1 class="page-header">Real Estate Price Predictor</H1>
+<div class="jumbotron">
+<h1>Predicted house price: ${{ prediction }}</h1>
+</div>
+</body>
+</html>
